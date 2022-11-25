@@ -1,0 +1,5 @@
+openmeteopy/
+*.json
+!spec/*.json
+token.json
+credentials.json
