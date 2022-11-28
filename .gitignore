@@ -3,3 +3,4 @@ openmeteopy/
 !spec/*.json
 token.json
 credentials.json
+.env
