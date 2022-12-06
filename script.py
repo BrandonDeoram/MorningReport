@@ -19,7 +19,7 @@ load_dotenv()
 SCOPES = ['https://www.googleapis.com/auth/calendar.readonly']
 
 # TODOIST API KEY
-api = TodoistAPI("529e9f7e5d62f60dce80cd7a5d15e9191065f5a9")
+api = TodoistAPI(os.getenv('TODOIST_API_KEY'))
 
 data = {}
 # Getting tasks that are due today
